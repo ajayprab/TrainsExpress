@@ -1,0 +1,63 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio 2012
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainsExpress", "TrainsExpress\TrainsExpress.csproj", "{44166BD8-629E-495B-B15C-43AD22565D0C}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainsExpress.Tests", "TrainsExpress.Tests\TrainsExpress.Tests.csproj", "{20351807-63CF-48C2-B028-0A3340ACF8A0}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra", "Dijkstra\Dijkstra.csproj", "{E8B28201-2E80-4D32-ACEA-A9B5C06AA8C5}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Dijkstra.Tests", "Dijkstra.Tests\Dijkstra.Tests.csproj", "{F06C319A-BE70-4A2F-868E-4E409569DBAE}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "TrainsExpress.Common", "TrainsExpress.Common\TrainsExpress.Common.csproj", "{ED190ABE-137F-419B-BAE7-CC1F6B03F1E6}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Tests", "Tests", "{3A392786-E45D-4400-BFCA-69BEC97E8019}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DijkstraRouteFinder", "DijkstraRouteFinder\DijkstraRouteFinder.csproj", "{5DA56C15-30FD-49DE-B1AB-4801B9DDA9CF}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DijkstraRouteFinder.Tests", "DijkstraRouteFinder.Tests\DijkstraRouteFinder.Tests.csproj", "{B46EFA57-0419-4539-B78D-CC84D6488A47}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{44166BD8-629E-495B-B15C-43AD22565D0C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{44166BD8-629E-495B-B15C-43AD22565D0C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{44166BD8-629E-495B-B15C-43AD22565D0C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{44166BD8-629E-495B-B15C-43AD22565D0C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{20351807-63CF-48C2-B028-0A3340ACF8A0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{20351807-63CF-48C2-B028-0A3340ACF8A0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{20351807-63CF-48C2-B028-0A3340ACF8A0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{20351807-63CF-48C2-B028-0A3340ACF8A0}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E8B28201-2E80-4D32-ACEA-A9B5C06AA8C5}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E8B28201-2E80-4D32-ACEA-A9B5C06AA8C5}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E8B28201-2E80-4D32-ACEA-A9B5C06AA8C5}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E8B28201-2E80-4D32-ACEA-A9B5C06AA8C5}.Release|Any CPU.Build.0 = Release|Any CPU
+		{F06C319A-BE70-4A2F-868E-4E409569DBAE}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{F06C319A-BE70-4A2F-868E-4E409569DBAE}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{F06C319A-BE70-4A2F-868E-4E409569DBAE}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{F06C319A-BE70-4A2F-868E-4E409569DBAE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{ED190ABE-137F-419B-BAE7-CC1F6B03F1E6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{ED190ABE-137F-419B-BAE7-CC1F6B03F1E6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{ED190ABE-137F-419B-BAE7-CC1F6B03F1E6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{ED190ABE-137F-419B-BAE7-CC1F6B03F1E6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{5DA56C15-30FD-49DE-B1AB-4801B9DDA9CF}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{5DA56C15-30FD-49DE-B1AB-4801B9DDA9CF}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{5DA56C15-30FD-49DE-B1AB-4801B9DDA9CF}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{5DA56C15-30FD-49DE-B1AB-4801B9DDA9CF}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B46EFA57-0419-4539-B78D-CC84D6488A47}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B46EFA57-0419-4539-B78D-CC84D6488A47}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B46EFA57-0419-4539-B78D-CC84D6488A47}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B46EFA57-0419-4539-B78D-CC84D6488A47}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{F06C319A-BE70-4A2F-868E-4E409569DBAE} = {3A392786-E45D-4400-BFCA-69BEC97E8019}
+		{20351807-63CF-48C2-B028-0A3340ACF8A0} = {3A392786-E45D-4400-BFCA-69BEC97E8019}
+		{B46EFA57-0419-4539-B78D-CC84D6488A47} = {3A392786-E45D-4400-BFCA-69BEC97E8019}
+	EndGlobalSection
+EndGlobal
